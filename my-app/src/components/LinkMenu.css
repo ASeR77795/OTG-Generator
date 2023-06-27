@@ -1,0 +1,29 @@
+.menu-button {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  position: relative;
+}
+.menu-box {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  border: 1px solid #454545;
+  width: 248px;
+  height: 248px;
+  right: 72px;
+  background-color: #ffffff;
+  gap: 30px;
+  text-align: center;
+  padding: 20px;
+}
+.menu-box button {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width: 46px;
+  height: 46px;
+}
+.hide {
+  display: none;
+}

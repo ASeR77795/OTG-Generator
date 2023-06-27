@@ -4,6 +4,7 @@ import img3 from "../plug/img/Balancechecker.png";
 import img4 from "../plug/img/Whitelistchecker.png";
 import img5 from "../plug/img/Identities.png";
 import img6 from "../plug/img/Users.png";
+import "./LinkMenu.css";
 
 export const LinkMenu = () => {
   return (
@@ -11,7 +12,7 @@ export const LinkMenu = () => {
       <button className="menu-button">
         <img src={img1} />
       </button>
-      <div className="menu-box">
+      <div className="menu-box hide">
         <button>
           <img src={img2} />
         </button>
