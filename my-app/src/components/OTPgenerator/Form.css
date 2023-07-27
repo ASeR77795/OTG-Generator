@@ -1,7 +1,6 @@
 .modal-input {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
 }
 .modal-input input {
   width: 300px;
@@ -12,9 +11,12 @@
 }
 .modal-input input::placeholder {
   color: #d2d2d2;
-  /* font-weight: 400; */
 }
-.modal-btn {
+.btn-box {
+  display: flex;
+  justify-content: space-between;
+}
+.save-btn {
   padding: 10px 15px;
   background-color: #5e5bff;
   border-radius: 5px;

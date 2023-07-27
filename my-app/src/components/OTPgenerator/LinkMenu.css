@@ -17,7 +17,7 @@
   text-align: center;
   padding: 20px;
 }
-.menu-box button {
+.menu-box a {
   background-color: #ffffff;
   border: none;
   cursor: pointer;
