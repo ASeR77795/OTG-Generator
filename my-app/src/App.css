@@ -2,9 +2,8 @@
   width: 1280px;
   height: 832px;
 }
-.container {
-  margin: 57px 63px;
-}
+/* .container {
+} */
 .title {
   display: flex;
   justify-content: space-between;

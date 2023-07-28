@@ -1,8 +1,12 @@
+.link-menu {
+  align-self: center;
+}
 .menu-button {
   border: none;
   background-color: #ffffff;
   cursor: pointer;
   position: relative;
+  padding: 0;
 }
 .menu-box {
   display: flex;

@@ -1,0 +1,55 @@
+.header-box {
+  margin: 48px 40px 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-title {
+  display: flex;
+}
+.header-title h1 {
+  color: #000;
+  text-align: center;
+  font-family: Roboto Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.btn {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  align-self: center;
+  padding: 0;
+  margin-left: 16px;
+}
+.header-menu {
+  display: flex;
+}
+.bell {
+  margin-right: 16px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+}
+.content-title {
+  display: flex;
+  width: 880px;
+  justify-content: space-between;
+}
+.title-item {
+  color: #000;
+  font-family: Roboto Mono;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: left;
+}
+.content-row {
+  display: flex;
+  justify-content: space-between;
+}
